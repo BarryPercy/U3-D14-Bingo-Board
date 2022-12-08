@@ -17,10 +17,11 @@ function generateNumber(){
     let number = Math.floor(Math.random()*76)+1;
     if(alreadySelectedNumbers.includes(number)){
         generateNumber();
-    }else{}
+    }else{
         alreadySelectedNumbers.push(number);
         highlightNumbers(number,"#bingo-board div");
         highlightNumbers(number,'.user-board-divs');
+    }
 }
 
 function highlightNumbers(num,selector){
