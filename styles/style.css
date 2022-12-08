@@ -6,7 +6,7 @@ body{
 .all-content{
     display:block;
     margin:auto;
-    width:50%;
+    width:53%;
 }
 
 .title{
@@ -14,4 +14,21 @@ body{
     text-shadow: 2px 2px black;
     text-align: center;
     font-size: xx-large;
+}
+#bingo-board div{
+    display:inline-block;
+    border:solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+    width:50px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top:10px;
+    margin-right:10px;
+}
+
+.selectedNumber{
+    background-color: orange !important;
 }
