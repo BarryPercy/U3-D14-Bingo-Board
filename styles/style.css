@@ -1,0 +1,17 @@
+body{
+    margin:0;
+    background-color: lime;
+    font-family: Arial,Arial, Helvetica, sans-serif;
+}
+.all-content{
+    display:block;
+    margin:auto;
+    width:50%;
+}
+
+.title{
+    color:white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-size: xx-large;
+}
